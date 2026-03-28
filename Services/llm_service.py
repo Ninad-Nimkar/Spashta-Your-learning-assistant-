@@ -6,7 +6,7 @@ from Services.prompt_builder import build_prompt
 load_dotenv()
 
 API_KEY = os.getenv("OPENAI_API_KEY")
-client = OpenAI(API_KEY)
+client = OpenAI(api_key=API_KEY)
 
 def summarize(text: str) -> str:
     response = client.chat.completions.create(

@@ -14,7 +14,6 @@ def extract_text(file_bytes: bytes, filename) -> str:
 
     #Image handeling
     else:
-        Image = Image.open(io.BytesIO(file_bytes))
-        extracted_text = pytesseract.image_to_string(Image)
+        
 
     return extracted_text
