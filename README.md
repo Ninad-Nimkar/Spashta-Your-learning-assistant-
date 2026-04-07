@@ -60,7 +60,7 @@ Frontend:
 HTML / CSS / JavaScript
 Minimal dark UI
 
-Deployment
+Deployment:
 Render / Railway (Backend)
 Vercel / Static Hosting (Frontend)
 Project Structure
@@ -83,7 +83,7 @@ Spashta/
 │   ├── script.js
 
 
-Running Locally
+Running Locally:
 1. Clone the repo
 git clone https://github.com/yourusername/spashta.git
 cd spashta
@@ -113,8 +113,8 @@ Returns:
 explanation text
 audio file
 transcript
-Why Spashta?
 
+Why Spashta?
 Most educational tools give the same explanation to everyone.
 
 But people understand differently:
