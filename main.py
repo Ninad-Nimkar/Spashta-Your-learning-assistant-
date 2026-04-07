@@ -32,15 +32,8 @@ async def upload_and_explain(
     if not raw_text:
         return JSONResponse(content={"error": "No text provided."}, status_code=400)
 
-    # 2. Clean text
-    cleaned_text = clean_text(raw_text)
-
-    # 3. Summarize
-    summary = summarize(cleaned_text)
-    summary = clean_text(summary)
-
     # 4. Explain
-    explanation = explain(summary, style, language)
+    explanation = explain(raw_text, style, language)
 
     # 5. TTS
     audio_bytes = generate_audio(explanation, language)
