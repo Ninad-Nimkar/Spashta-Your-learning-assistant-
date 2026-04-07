@@ -5,8 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import base64
 
-from utils.text_cleaner import clean_text
-from Services.llm_service import summarize, explain
+from Services.llm_service import explain
 from Services.tts_service import generate_audio
 
 BASE_DIR = Path(__file__).resolve().parent
