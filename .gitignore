@@ -1,2 +1,4 @@
 .env
 Services/ocr_service.py
+.idea/workspace.xml
+/venv
