@@ -1,8 +1,6 @@
 
 Spashta, AI Explanation Engine
-
 Spashta is built to make learning easier and more personal.
-
 Instead of reading long notes or watching long lectures, you can:
 
 Enter any topic
